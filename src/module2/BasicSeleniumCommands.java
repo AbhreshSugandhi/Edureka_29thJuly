@@ -37,9 +37,6 @@ public class BasicSeleniumCommands {
 		driver.findElement(By.id("")).sendKeys("Abhresh");
 		//Clear Commands
 		driver.findElement(By.id("")).clear();
-		
-
-		
 
 	}
 
