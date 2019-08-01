@@ -13,6 +13,8 @@ public class BasicSeleniumCommands {
 		System.setProperty("webdriver.chrome.driver", "F:\\Training\\Installation_stuff\\ExeFiles\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
+		//Firefox Browser
+		
 		// Close and Quit
 		driver.close();// this will close the current active window of the browser with in this instance
 		driver.quit();// this will close all the window opened during this instance
@@ -37,7 +39,6 @@ public class BasicSeleniumCommands {
 		driver.findElement(By.id("")).sendKeys("Abhresh");
 		//Clear Commands
 		driver.findElement(By.id("")).clear();
-
 	}
 
 }
