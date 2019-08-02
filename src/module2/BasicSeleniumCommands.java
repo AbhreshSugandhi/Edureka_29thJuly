@@ -15,6 +15,7 @@ public class BasicSeleniumCommands {
 		
 		//Firefox Browser
 		
+		
 		// Close and Quit
 		driver.close();// this will close the current active window of the browser with in this instance
 		driver.quit();// this will close all the window opened during this instance
