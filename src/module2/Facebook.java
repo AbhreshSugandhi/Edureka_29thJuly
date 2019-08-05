@@ -53,7 +53,8 @@ public class Facebook {
 		List<WebElement> list = driver.findElements(By.tagName("a"));
 		System.out.println(list.size());
 		
-		
+		//Xpath
+		driver.findElement(By.xpath("//input[@name='lastname']")).sendKeys("Abhresh");
 		
 		
 	}
