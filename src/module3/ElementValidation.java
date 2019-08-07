@@ -10,8 +10,7 @@ public class ElementValidation {
 	public static void main(String[] args) {
 
 		// Open Browser
-		System.setProperty("webdriver.chrome.driver",
-				"D:\\Training\\Selenium\\Selenium\\drivers\\chromedriver_2.46.exe");
+		System.setProperty("webdriver.chrome.driver", "F:\\Training\\Installation_stuff\\ExeFiles\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 
 		driver.get("https://seleniumautomationpractice.blogspot.com/2017/10/functionisogramigoogleanalyticsobjectri.html");
@@ -23,7 +22,5 @@ public class ElementValidation {
 		boolean Validation = checkBox.isSelected();
 		
 		System.out.println(Validation);
-		
 	}
-
 }

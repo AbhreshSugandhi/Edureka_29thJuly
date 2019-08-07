@@ -10,8 +10,7 @@ public class ErrorValidation {
 	public static void main(String[] args) {
 
 		// Open Browser
-		System.setProperty("webdriver.chrome.driver",
-				"D:\\Training\\Selenium\\Selenium\\drivers\\chromedriver_2.46.exe");
+		System.setProperty("webdriver.chrome.driver", "F:\\Training\\Installation_stuff\\ExeFiles\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 
 		driver.get("https://www.naukri.com/nlogin/login");

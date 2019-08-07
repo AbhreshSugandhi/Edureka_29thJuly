@@ -8,8 +8,7 @@ public class TitleValidation {
 	public static void main(String[] args) {
 
 		// Open Browser
-		System.setProperty("webdriver.chrome.driver",
-				"D:\\Training\\Selenium\\Selenium\\drivers\\chromedriver_2.46.exe");
+		System.setProperty("webdriver.chrome.driver", "F:\\Training\\Installation_stuff\\ExeFiles\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
 		//Open the AUT
@@ -23,8 +22,5 @@ public class TitleValidation {
 		boolean Result = Apptitle.equals("Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in");
 		
 		System.out.println(Result);
-		
-
 	}
-
 }
