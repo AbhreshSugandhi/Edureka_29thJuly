@@ -10,7 +10,7 @@ public class cAlert {
 	public static void main(String[] args) {
 
 		// Open browser
-		System.setProperty("webdriver.chrome.driver", "F:\\Training\\Installation_stuff\\ExeFiles\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "F:\\Training\\Installation_stuff\\ExeFiles\\chromedriver_76.exe");
 		WebDriver driver = new ChromeDriver();
 
 		driver.get("https://seleniumautomationpractice.blogspot.com/2018/01/blog-post.html");
