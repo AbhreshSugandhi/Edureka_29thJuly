@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Testing First TestNG Class]">
+  <test thread-count="5" name="Testing TestNG Test(failed)">
+    <classes>
+      <class name="module6.NewTest">
+        <methods>
+          <include name="OpenAUT"/>
+          <include name="CloseBrowser"/>
+          <include name="OpenBrowser"/>
+          <include name="LogOut"/>
+          <include name="LogIn"/>
+        </methods>
+      </class> <!-- module6.NewTest -->
+    </classes>
+  </test> <!-- Testing TestNG Test(failed) -->
+</suite> <!-- Failed suite [Testing First TestNG Class] -->

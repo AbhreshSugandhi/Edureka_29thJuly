@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CrossBrowserTesting">
+	<test name="Chrome">
+		<parameter name="B" value="Chrome"></parameter>
+		<parameter name="Username" value="tabhresh@gmail.com"></parameter>
+		<parameter name="Password" value="edureka123"></parameter>
+		<classes>
+			<class name="module6.Cross_Parallel" />
+		</classes>
+	</test>
+
+	<test name="Firefox">
+		<parameter name="B" value="Firefox"></parameter>
+		<parameter name="Username" value="tabhresh@gmail.com"></parameter>
+		<parameter name="Password" value="edureka123"></parameter>
+		<classes>
+			<class name="module6.Cross_Parallel" />
+		</classes>
+	</test>
+	
+	<test name="Chrome_test">
+		<parameter name="Username" value="tabhresh@gmail.com"></parameter>
+		<parameter name="Password" value="edureka123"></parameter>
+		<classes>
+			<class name="module6.GitHubLogin" />
+		</classes>
+	</test>
+	
+</suite>

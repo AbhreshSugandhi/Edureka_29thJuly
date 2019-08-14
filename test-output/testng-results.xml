@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CrossBrowserTesting" duration-ms="52931" started-at="2019-08-14T16:39:58Z" finished-at="2019-08-14T16:40:50Z">
+    <groups>
+    </groups>
+    <test name="Chrome" duration-ms="49719" started-at="2019-08-14T16:39:58Z" finished-at="2019-08-14T16:40:47Z">
+      <class name="module6.Cross_Parallel">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:module6.Cross_Parallel@38bc8ab5]" name="openBrowser" duration-ms="12681" started-at="2019-08-14T16:39:58Z" finished-at="2019-08-14T16:40:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="OpenAUT()[pri:1, instance:module6.Cross_Parallel@38bc8ab5]" name="OpenAUT" duration-ms="8893" started-at="2019-08-14T16:40:10Z" finished-at="2019-08-14T16:40:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAUT -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:module6.Cross_Parallel@38bc8ab5]" name="Login" duration-ms="12888" started-at="2019-08-14T16:40:19Z" finished-at="2019-08-14T16:40:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tabhresh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edureka123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Logout()[pri:3, instance:module6.Cross_Parallel@38bc8ab5]" name="Logout" duration-ms="8978" started-at="2019-08-14T16:40:32Z" finished-at="2019-08-14T16:40:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="CloseTestCase()[pri:4, instance:module6.Cross_Parallel@38bc8ab5]" name="CloseTestCase" duration-ms="6157" started-at="2019-08-14T16:40:41Z" finished-at="2019-08-14T16:40:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseTestCase -->
+      </class> <!-- module6.Cross_Parallel -->
+    </test> <!-- Chrome -->
+    <test name="Chrome_test" duration-ms="52508" started-at="2019-08-14T16:39:58Z" finished-at="2019-08-14T16:40:50Z">
+      <class name="module6.GitHubLogin">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:module6.GitHubLogin@e720b71]" name="OpenBrowser" duration-ms="13164" started-at="2019-08-14T16:39:58Z" finished-at="2019-08-14T16:40:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="OpenAUT()[pri:1, instance:module6.GitHubLogin@e720b71]" name="OpenAUT" duration-ms="8424" started-at="2019-08-14T16:40:11Z" finished-at="2019-08-14T16:40:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAUT -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:module6.GitHubLogin@e720b71]" name="Login" duration-ms="15963" started-at="2019-08-14T16:40:19Z" finished-at="2019-08-14T16:40:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tabhresh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edureka123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Logout()[pri:3, instance:module6.GitHubLogin@e720b71]" name="Logout" duration-ms="9798" started-at="2019-08-14T16:40:35Z" finished-at="2019-08-14T16:40:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="CloseTestCase()[pri:4, instance:module6.GitHubLogin@e720b71]" name="CloseTestCase" duration-ms="5082" started-at="2019-08-14T16:40:45Z" finished-at="2019-08-14T16:40:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseTestCase -->
+      </class> <!-- module6.GitHubLogin -->
+    </test> <!-- Chrome_test -->
+    <test name="Firefox" duration-ms="52931" started-at="2019-08-14T16:39:58Z" finished-at="2019-08-14T16:40:50Z">
+      <class name="module6.Cross_Parallel">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:module6.Cross_Parallel@ed9d034]" name="openBrowser" duration-ms="25774" started-at="2019-08-14T16:39:58Z" finished-at="2019-08-14T16:40:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="OpenAUT()[pri:1, instance:module6.Cross_Parallel@ed9d034]" name="OpenAUT" duration-ms="4939" started-at="2019-08-14T16:40:23Z" finished-at="2019-08-14T16:40:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAUT -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:module6.Cross_Parallel@ed9d034]" name="Login" duration-ms="8466" started-at="2019-08-14T16:40:28Z" finished-at="2019-08-14T16:40:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tabhresh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edureka123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Logout()[pri:3, instance:module6.Cross_Parallel@ed9d034]" name="Logout" duration-ms="6121" started-at="2019-08-14T16:40:37Z" finished-at="2019-08-14T16:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="CloseTestCase()[pri:4, instance:module6.Cross_Parallel@ed9d034]" name="CloseTestCase" duration-ms="7555" started-at="2019-08-14T16:40:43Z" finished-at="2019-08-14T16:40:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseTestCase -->
+      </class> <!-- module6.Cross_Parallel -->
+    </test> <!-- Firefox -->
+  </suite> <!-- CrossBrowserTesting -->
+</testng-results>
