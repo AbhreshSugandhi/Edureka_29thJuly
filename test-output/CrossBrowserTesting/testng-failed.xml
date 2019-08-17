@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CrossBrowserTesting]" parallel="tests">
+  <test thread-count="5" name="Chrome2(failed)" parallel="tests">
+    <parameter name="Username" value="tabhresh@gmail.com"/>
+    <parameter name="System" value="pc2"/>
+    <parameter name="Password" value="edureka123"/>
+    <classes>
+      <class name="module6.Cross_Parallel">
+        <methods>
+          <include name="OpenAUT"/>
+          <include name="Login" invocation-numbers="0"/>
+          <include name="openBrowser"/>
+          <include name="CloseTestCase"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- module6.Cross_Parallel -->
+    </classes>
+  </test> <!-- Chrome2(failed) -->
+  <test thread-count="5" name="Chrome1(failed)" parallel="tests">
+    <parameter name="Username" value="tabhresh@gmail.com"/>
+    <parameter name="System" value="pc1"/>
+    <parameter name="Password" value="edureka123"/>
+    <classes>
+      <class name="module6.Cross_Parallel">
+        <methods>
+          <include name="OpenAUT"/>
+          <include name="Login" invocation-numbers="0"/>
+          <include name="openBrowser"/>
+          <include name="CloseTestCase"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- module6.Cross_Parallel -->
+    </classes>
+  </test> <!-- Chrome1(failed) -->
+</suite> <!-- Failed suite [CrossBrowserTesting] -->

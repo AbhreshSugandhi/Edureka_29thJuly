@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GRID Parallel Testing" parallel="tests">
+	<test name="Chrome">
+		<parameter name="System" value="pc1"></parameter>
+		<parameter name="Username" value="tabhresh@gmail.com"></parameter>
+		<parameter name="Password" value="edureka123"></parameter>
+		<classes>
+			<class name="module7.GitHubLogin" />
+		</classes>
+	</test>
+	<test name="Firefox">
+		<parameter name="System" value="pc2"></parameter>
+		<parameter name="Username" value="tabhresh@gmail.com"></parameter>
+		<parameter name="Password" value="edureka123"></parameter>
+		<classes>
+			<class name="module7.GitHubLogin" />
+		</classes>
+	</test>
+</suite>

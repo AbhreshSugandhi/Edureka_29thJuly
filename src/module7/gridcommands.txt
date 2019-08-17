@@ -1,0 +1,9 @@
+Hub Command:
+java -jar selenium-server-standalone-2.53.0.jar -role hub
+
+Node Command:
+java -jar selenium-server-standalone-2.53.0.jar -role webdriver -hub http://localhost:4444/grid/register
+
+java -Dwebdriver.chrome.driver="C:\Program Files\Selenium\Grid\chromedriver_2.46.exe" -jar selenium-server-standalone-2.53.0.jar -role webdriver -hub http://192.168.1.4:4444/grid/register -port 5566
+
+java -Dwebdriver.gecko.driver="C:\Program Files\Selenium\Grid\geckodriver_0.23.exe" -jar selenium-server-standalone-2.53.0.jar -role webdriver -hub http://192.168.1.4:4444/grid/register -port 5566
