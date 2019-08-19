@@ -34,6 +34,8 @@ public class DropDown {
 		oSelect.selectByValue("g");	
 
 		Thread.sleep(5000);
+		
+		driver.quit();
 	}
 
 }
