@@ -56,5 +56,6 @@
 	<classpathentry kind="lib" path="C:/Users/Nikasio/Box/Laptop Space/Training/Installation_stuff/POI_Jars/poi-ooxml-schemas-4.1.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Nikasio/Box/Laptop Space/Training/Installation_stuff/POI_Jars/poi-scratchpad-4.1.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Nikasio/Box/Laptop Space/Training/Installation_stuff/POI_Jars/xmlbeans-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Nikasio/Box/Laptop Space/Training/Installation_stuff/Sikuli_Jar/sikulix.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
